@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+}
+
+h1{
+    color: red;
+    margin: 60px 0;
+}
+
+h2{
+    color: blue;
+    margin-bottom: 20px;
+}
+
+img{
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p{
+    font-size: 30px;
+    background-color: aqua;
+    margin-bottom: 30px;
+
+    /* clear: both; quita el float para el parrafo */
+}
+
+#caja1, .caja2{
+    width: 500px;
+    height: 500px;
+}
+
+#caja1{
+    background-color: red;
+    float: right;
+}
+
+.caja2{
+    background-color: yellow;
+}
